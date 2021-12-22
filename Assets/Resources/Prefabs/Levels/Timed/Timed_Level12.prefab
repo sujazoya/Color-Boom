@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &163958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469976}
+  - component: {fileID: 11443448}
+  - component: {fileID: 11480840}
+  m_Layer: 0
+  m_Name: Timed_Level12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11443448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fae89ff1c6e49442a990cb59ad9ff59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelKEY: Timed_Level12
+  mode: 3
+  levelIndex: 12
+  levelName: Level 12
+  path: Prefabs/Levels/Timed/Timed_Level12
+  levelData: {fileID: 11480840}
+--- !u!114 &11480840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0836d4e1c8ace6a478c8ba9cef656b4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: 15
+  defSpeed: 4.5
+  defDistance: 23
+  levelTime: 60
+  ballStartMaterial: {fileID: 0}
+  items:
+  - elementHolder: {fileID: 102688, guid: ba3f4a64406cee14c94c0c03fdba6f44, type: 3}
+    speed: 0
+    offset: 0
+    distance: 15
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 8
+    distance: 28
+  - elementHolder: {fileID: 165378, guid: 908fc69e73e3c7a41987df9accd226d8, type: 3}
+    speed: 0
+    offset: 2
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 125716, guid: 19e124ccfd715f94da617780e4960ff3, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 134642, guid: e75c12d676610db46868072ce7762081, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 102688, guid: ba3f4a64406cee14c94c0c03fdba6f44, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 181116, guid: d742ce7b969942c489fe86da497ef3f2, type: 3}
+    speed: 7
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 124214, guid: f8a6fc06809e5a84eb7b4b4184732376, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 171360, guid: c17841ad6a8b2a446b5bd6189b8ea16d, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  levelElements:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  randomElementCategory: 2
+  randomElementCount: 8

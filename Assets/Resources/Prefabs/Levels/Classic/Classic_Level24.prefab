@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &153878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499574}
+  - component: {fileID: 11445366}
+  - component: {fileID: 11408460}
+  m_Layer: 0
+  m_Name: Classic_Level24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11445366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fae89ff1c6e49442a990cb59ad9ff59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelKEY: Classic_Level24
+  mode: 2
+  levelIndex: 24
+  levelName: Level 24
+  path: Prefabs/Levels/Classic/Classic_Level24
+  levelData: {fileID: 11408460}
+--- !u!114 &11408460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0836d4e1c8ace6a478c8ba9cef656b4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: 15
+  defSpeed: 5
+  defDistance: 23
+  levelTime: 0
+  ballStartMaterial: {fileID: 0}
+  items:
+  - elementHolder: {fileID: 197496, guid: fd3cfdb27be78cd4ab560f9178e2060c, type: 3}
+    speed: 0
+    offset: 0
+    distance: 15
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 8
+    distance: 28
+  - elementHolder: {fileID: 102688, guid: ba3f4a64406cee14c94c0c03fdba6f44, type: 3}
+    speed: 0
+    offset: 2
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 132022, guid: 79009131ad92cbf4eb8153cccc2c13f5, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 130534, guid: 05622a842c358df4ea156cef105610a2, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 118182, guid: 2c59fcbfe6739f74784cd55897376b28, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 111790, guid: cbc5106dfb54f09418f229e8efb082a7, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 111790, guid: cbc5106dfb54f09418f229e8efb082a7, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 130534, guid: 05622a842c358df4ea156cef105610a2, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 141442, guid: 45166e30cb04550408f2b5fb3d268ae4, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 154216, guid: 97befa1e6fab07f42a051b3d0f5de560, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  - elementHolder: {fileID: 171360, guid: c17841ad6a8b2a446b5bd6189b8ea16d, type: 3}
+    speed: 0
+    offset: 0
+    distance: 0
+  levelElements:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  randomElementCategory: 3
+  randomElementCount: 10
