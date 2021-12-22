@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  rsKeyList:
+  - metadata:
+      entityId: bacc7cc5-c0a7-48cf-816e-cde9c24713b5
+    rs:
+      key: singleTimeMassege
+      type: bool
+      value: false
+  - metadata:
+      entityId: 5099f24e-0852-451b-94b5-56cbd090d866
+    rs:
+      key: buttonText
+      type: string
+      value: Update
+  - metadata:
+      entityId: 8fba6dde-2e8d-417a-9c0a-18e2cdbba43f
+    rs:
+      key: buttonNeeded
+      type: bool
+      value: true
+  - metadata:
+      entityId: 2ba1f1d0-8878-4934-852e-014e612dcfd3
+    rs:
+      key: showMassege
+      type: bool
+      value: true
+  - metadata:
+      entityId: f80615e3-82d5-46d7-8194-92551240ee7e
+    rs:
+      key: admob
+      type: bool
+      value: true
+  - metadata:
+      entityId: 07cd7bad-52bc-4b95-a253-283f89914961
+    rs:
+      key: bannerId
+      type: string
+      value: ca-app-pub-6263037668585399/9811257595
+  - metadata:
+      entityId: 9060ddd8-c758-4eb6-9fc1-b7ebb62e7760
+    rs:
+      key: interstitilaId
+      type: string
+      value: ca-app-pub-6263037668585399/8306604236
+  - metadata:
+      entityId: eff0444c-aee6-4475-9374-5e0c0fc10802
+    rs:
+      key: rewardedId
+      type: string
+      value: ca-app-pub-6263037668585399/9236542527
+  - metadata:
+      entityId: 94f9898d-50e7-4e23-b4d2-0cf1e9bb32d7
+    rs:
+      key: massege
+      type: string
+      value: Please Update Your Game For New Fetures
+  - metadata:
+      entityId: ae918f99-9a49-4a5e-bd76-d979b5aa2bde
+    rs:
+      key: tital
+      type: string
+      value: New Update
+  - metadata:
+      entityId: f4cd66b8-e7f6-4110-af1e-fba53302bf3a
+    rs:
+      key: massegeKey
+      type: string
+      value: massegeKey11
+  - metadata:
+      entityId: a108360b-a8eb-4bdf-a278-c8b1047bde0d
+    rs:
+      key: updateAdmobIDS
+      type: bool
+      value: false
+  - metadata:
+      entityId: 9ba06827-7663-4061-b4ac-edec7f919a59
+    rs:
+      key: buttonUrl
+      type: string
+      value: https://play.google.com/store/apps/details?id=com.zoya.AbcJelly
+  - metadata:
+      entityId: 8b8e0126-5537-4c27-a455-30c76d14bdd3
+    rs:
+      key: AdGroup
+      type: int
+      value: 1
+  - metadata:
+      entityId: d90a06d4-2fa8-46bd-842f-4a6d62df266c
+    rs:
+      key: ChangeIronsourceId
+      type: bool
+      value: false
+  - metadata:
+      entityId: 38a7eea2-e6e5-4938-ba48-e93e8cdf9526
+    rs:
+      key: IronsourceAppId
+      type: string
+      value: fefab589
+  - metadata:
+      entityId: c27f89b3-9b0a-45d8-a450-e62436cf9b46
+    rs:
+      key: 'Kidoz_SECURITY_TOKEN '
+      type: string
+      value: ULLN9Ru8lo0yO9Io4TsN6HtIezeer656
+  - metadata:
+      entityId: ace55eec-3efc-4d12-8450-e8aadd233757
+    rs:
+      key: ChangeAdcolonyId
+      type: bool
+      value: false
+  - metadata:
+      entityId: f48249f2-b047-44cc-9394-f18ca7d2770e
+    rs:
+      key: Advolony_appID
+      type: string
+      value: app4dde5f6d82bf4303b1
+  - metadata:
+      entityId: 480ac08d-c089-4105-963f-2921bdb0a2ce
+    rs:
+      key: Adcolony_BannerId
+      type: string
+      value: vz837f76db19a14d1ebc
+  - metadata:
+      entityId: dcc39536-e1e5-4c5f-bf7a-ad2766e1da8b
+    rs:
+      key: Adcolony_intertitialID
+      type: string
+      value: vz58b4cae5ede4420694
+  - metadata:
+      entityId: 63a0ff23-ee58-4257-a0cf-1696c41b09ab
+    rs:
+      key: interstitial_Interval
+      type: float
+      value: 200
+  - metadata:
+      entityId: 102799c8-8886-4a15-96a0-1a591222a35e
+    rs:
+      key: adUnitId
+      type: string
+      value: ca-app-pub-6263037668585399/8321882268
+  rsLastCachedKeyList:
+  - metadata:
+      entityId: bacc7cc5-c0a7-48cf-816e-cde9c24713b5
+    rs:
+      key: singleTimeMassege
+      type: bool
+      value: false
+  - metadata:
+      entityId: 5099f24e-0852-451b-94b5-56cbd090d866
+    rs:
+      key: buttonText
+      type: string
+      value: Update
+  - metadata:
+      entityId: 8fba6dde-2e8d-417a-9c0a-18e2cdbba43f
+    rs:
+      key: buttonNeeded
+      type: bool
+      value: true
+  - metadata:
+      entityId: 2ba1f1d0-8878-4934-852e-014e612dcfd3
+    rs:
+      key: showMassege
+      type: bool
+      value: true
+  - metadata:
+      entityId: f80615e3-82d5-46d7-8194-92551240ee7e
+    rs:
+      key: admob
+      type: bool
+      value: true
+  - metadata:
+      entityId: 07cd7bad-52bc-4b95-a253-283f89914961
+    rs:
+      key: bannerId
+      type: string
+      value: ca-app-pub-6263037668585399/9811257595
+  - metadata:
+      entityId: 9060ddd8-c758-4eb6-9fc1-b7ebb62e7760
+    rs:
+      key: interstitilaId
+      type: string
+      value: ca-app-pub-6263037668585399/8306604236
+  - metadata:
+      entityId: eff0444c-aee6-4475-9374-5e0c0fc10802
+    rs:
+      key: rewardedId
+      type: string
+      value: ca-app-pub-6263037668585399/9236542527
+  - metadata:
+      entityId: 94f9898d-50e7-4e23-b4d2-0cf1e9bb32d7
+    rs:
+      key: massege
+      type: string
+      value: Please Update Your Game For New Fetures
+  - metadata:
+      entityId: ae918f99-9a49-4a5e-bd76-d979b5aa2bde
+    rs:
+      key: tital
+      type: string
+      value: New Update
+  - metadata:
+      entityId: f4cd66b8-e7f6-4110-af1e-fba53302bf3a
+    rs:
+      key: massegeKey
+      type: string
+      value: massegeKey11
+  - metadata:
+      entityId: 67c108a7-e2e5-4dcb-9bfd-a9aede4dfc7e
+    rs:
+      key: releaseBuild
+      type: bool
+      value: true
+  - metadata:
+      entityId: a108360b-a8eb-4bdf-a278-c8b1047bde0d
+    rs:
+      key: updateAdmobIDS
+      type: bool
+      value: false
+  - metadata:
+      entityId: 9ba06827-7663-4061-b4ac-edec7f919a59
+    rs:
+      key: buttonUrl
+      type: string
+      value: https://play.google.com/store/apps/details?id=com.zoya.AbcJelly
+  - metadata:
+      entityId: 8b8e0126-5537-4c27-a455-30c76d14bdd3
+    rs:
+      key: AdGroup
+      type: int
+      value: 1
+  - metadata:
+      entityId: d90a06d4-2fa8-46bd-842f-4a6d62df266c
+    rs:
+      key: ChangeIronsourceId
+      type: bool
+      value: false
+  - metadata:
+      entityId: 38a7eea2-e6e5-4938-ba48-e93e8cdf9526
+    rs:
+      key: IronsourceAppId
+      type: string
+      value: fefab589
+  - metadata:
+      entityId: c27f89b3-9b0a-45d8-a450-e62436cf9b46
+    rs:
+      key: 'Kidoz_SECURITY_TOKEN '
+      type: string
+      value: ULLN9Ru8lo0yO9Io4TsN6HtIezeer656
+  - metadata:
+      entityId: ace55eec-3efc-4d12-8450-e8aadd233757
+    rs:
+      key: ChangeAdcolonyId
+      type: bool
+      value: false
+  - metadata:
+      entityId: f48249f2-b047-44cc-9394-f18ca7d2770e
+    rs:
+      key: Advolony_appID
+      type: string
+      value: app4dde5f6d82bf4303b1
+  - metadata:
+      entityId: 480ac08d-c089-4105-963f-2921bdb0a2ce
+    rs:
+      key: Adcolony_BannerId
+      type: string
+      value: vz837f76db19a14d1ebc
+  - metadata:
+      entityId: dcc39536-e1e5-4c5f-bf7a-ad2766e1da8b
+    rs:
+      key: Adcolony_intertitialID
+      type: string
+      value: vz58b4cae5ede4420694
+  - metadata:
+      entityId: 63a0ff23-ee58-4257-a0cf-1696c41b09ab
+    rs:
+      key: interstitial_Interval
+      type: float
+      value: 200.000000
+  - metadata:
+      entityId: 102799c8-8886-4a15-96a0-1a591222a35e
+    rs:
+      key: adUnitId
+      type: string
+      value: ca-app-pub-6263037668585399/8321882268
+  configId: 0c335321-5af7-4692-8e11-1621774b4a15
+  currentEnvironmentId: e3ac3505-ad28-401d-bf9c-6042021c1755
+  environments:
+  - id: e3ac3505-ad28-401d-bf9c-6042021c1755
+    appId: 
+    name: production (Default)
+    description: 
+    createdAt: 2021-08-10T05:45:20Z
+    updatedAt: 2021-08-10T05:45:20Z
+  rulesList: []
+  lastCachedRulesList: []
+  addedRulesIDs: []
+  updatedRulesIDs: []
+  deletedRulesIDs: []
